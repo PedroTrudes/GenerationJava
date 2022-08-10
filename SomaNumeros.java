@@ -16,15 +16,16 @@ public class SomaNumeros {
 		
 		
 		do {
-			
 			System.out.print("Digite um número: ");
 			numero=leia.nextInt();
 			
+			
 			somaNumeros += numero;
+			
 			
 		} while(numero != 0);
 		
-		System.out.println("A soma dos números digitados foi: "+somaNumeros);
+		System.out.println("A soma dos numeros: "+somaNumeros);
 	}
 
 }
